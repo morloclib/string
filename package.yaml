@@ -1,0 +1,12 @@
+name: string 
+version: 0.0.0
+homepage: https://github.com/morloclib/string
+synopsis: Core functions for string processing
+description: A stub for string processing
+category: basic
+license: MIT
+author: "Zebulun Arendsee"
+maintainer: "zbwrnz@gmail.com"
+github: https://github.com/morloclib/string
+bug-reports: https://github.com/morloclib/string
+gcc-flags: "c++17"

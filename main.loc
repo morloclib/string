@@ -1,0 +1,14 @@
+module string
+
+import conventions
+
+export search
+export Pattern
+
+type Pattern = Str
+type Py Pattern = "str"
+
+source Py from "string.py" ("search")
+
+search :: Pattern -> Str -> Bool
+search Py :: "str" -> "str" -> "bool"
