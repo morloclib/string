@@ -1,9 +1,6 @@
-module string
+module string (*)
 
 import conventions
-
-export search
-export Pattern
 
 type Pattern = Str
 type Py Pattern = "str"
