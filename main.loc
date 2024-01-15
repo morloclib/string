@@ -3,7 +3,7 @@ module string (*)
 import conventions
 
 type Pattern = Str
-type Py Pattern = "str"
+type Py => Pattern = "str"
 
 source Py from "string.py" ("search")
 
